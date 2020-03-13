@@ -31,10 +31,15 @@ class FixedHeader extends Component {
     );
   }
 
-  renderHeader() {
+  renderHeader = () => {
+    const { navigation } = this.props;
+
     return (
       <View style={styles.headerContainer}>
-        <TouchableOpacity style={styles.headerIcon}>
+        <TouchableOpacity
+          style={styles.headerIcon}
+          onPress={() => navigation.goBack()}
+        >
           <Image
             source={require('@/assets/img/arrow-left.png')}
             style={{ tintColor: '#ffffff' }}

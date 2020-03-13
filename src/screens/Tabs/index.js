@@ -41,7 +41,7 @@ export default class Collapse extends React.Component {
       <View style={styles.avatarContainer}>
         <Image
           source={{
-            uri: 'https://images.unsplash.com/,
+            uri: 'https://images.unsplash.com/',
           }}
           style={styles.avatar}
         />
@@ -73,7 +73,6 @@ export default class Collapse extends React.Component {
     const { tabsHeight } = this.state;
     return (
       <View style={{ flex: 1 }}>
-        {this.renderHeader()}
         <ScrollableTabView
           collapsableBar={this.collapsableComponent()}
           initialPage={0}

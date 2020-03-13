@@ -6,18 +6,21 @@
  * @flow
  */
 
+import 'react-native-gesture-handler';
 import React, { Component } from 'react';
-import { SafeAreaView, StatusBar } from 'react-native';
-import Tabs from '@/screens/Tabs';
+import { NavigationContainer } from '@react-navigation/native';
+import { StatusBar } from 'react-native';
+import { createStackNavigator } from '@react-navigation/stack';
+
+import AppNavigator from './router';
+
 
 export default class App extends Component {
   render() {
     return (
       <>
         <StatusBar barStyle="dark-content" />
-        <SafeAreaView style={{ flex: 1 }}>
-          <Tabs />
-        </SafeAreaView>
+        <AppNavigator />
       </>
     );
   }
