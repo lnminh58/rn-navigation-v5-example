@@ -6,6 +6,7 @@ import Detail from '@/screens/Detail';
 import AnimateHeader from '@/screens/AnimateHeader';
 import FixedHeader from '@/screens/FixedHeader';
 import Tabs from '@/screens/Tabs';
+import Spring from '@/screens/Spring';
 
 import BottomTabNav from './BottomTabNav';
 
@@ -48,6 +49,7 @@ const MainStackNav = () => (
       options={{ headerShown: false }}
     />
     <Stack.Screen name="HeaderCollapsibleTabs" component={Tabs} />
+    <Stack.Screen name="Spring" component={Spring} />
   </Stack.Navigator>
 );
 

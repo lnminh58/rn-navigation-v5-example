@@ -23,9 +23,14 @@ class Home extends Component {
           Go Animated header
         </Button>
 
-        <Button onPress={() => navigation.navigate('FixedHeader')}>Go Fixed Header</Button>
+        <Button onPress={() => navigation.navigate('FixedHeader')}>
+          Go Fixed Header
+        </Button>
 
-        <Button onPress={() => navigation.navigate('HeaderCollapsibleTabs')}>Go Header Collapsible Tabs</Button>
+        <Button onPress={() => navigation.navigate('HeaderCollapsibleTabs')}>
+          Go Header Collapsible Tabs
+        </Button>
+        <Button onPress={() => navigation.navigate('Spring')}>Sping</Button>
       </View>
     );
   }
