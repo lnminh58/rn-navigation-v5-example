@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import ScrollableTabView, { DefaultTabBar } from 'rn-collapsing-tab-bar';
 
-import styles from './style';
+import styles from './styles';
 
 const containerHeight = Dimensions.get('window').height;
 

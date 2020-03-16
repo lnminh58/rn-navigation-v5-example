@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 
 import { Button } from '@/components';
 
-import styles from './style';
+import styles from './styles';
 
 class Detail extends Component {
   constructor(props) {

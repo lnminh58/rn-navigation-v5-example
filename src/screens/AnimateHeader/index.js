@@ -3,7 +3,7 @@ import { View, Text, Image, FlatList, TouchableOpacity } from 'react-native';
 import ParallaxScroll from '@monterosa/react-native-parallax-scroll';
 
 import Header from '@/components/Header';
-import styles from './style';
+import styles from './styles';
 
 const data = new Array(20)
   .fill(0)

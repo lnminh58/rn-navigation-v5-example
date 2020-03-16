@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 
 import { Button } from '@/components';
 
-import styles from './style';
+import styles from './styles';
 
 class Inbox extends Component {
   constructor(props) {
