@@ -31,6 +31,9 @@ class Home extends Component {
           Go Header Collapsible Tabs
         </Button>
         <Button onPress={() => navigation.navigate('Spring')}>Sping</Button>
+        <Button onPress={() => navigation.navigate('SpringGesture')}>
+          Sping Gesture
+        </Button>
       </View>
     );
   }

@@ -7,6 +7,7 @@ import AnimateHeader from '@/screens/AnimateHeader';
 import FixedHeader from '@/screens/FixedHeader';
 import Tabs from '@/screens/Tabs';
 import Spring from '@/screens/Spring';
+import SpringGesture from '@/screens/SpringGesture';
 
 import BottomTabNav from './BottomTabNav';
 
@@ -50,6 +51,7 @@ const MainStackNav = () => (
     />
     <Stack.Screen name="HeaderCollapsibleTabs" component={Tabs} />
     <Stack.Screen name="Spring" component={Spring} />
+    <Stack.Screen name="SpringGesture" component={SpringGesture} />
   </Stack.Navigator>
 );
 
